@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="./css/custom.css" rel="stylesheet" media="all">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Homework 1</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <nav class="top-nav">
+        <a href="#">Sharepoint</a>
+        <div class="top-nav-right">
+            <a href="#">My Sites</a>
+            <a href="#">Yammer</a>
+            <a href="#">OneDrive</a>
+            <a href="#" class="top-nav-right-last-blue">Sites</a>
+            <span class="top-nav-right-white">
+                <a href="#">Elizaveta Eliseeva <i class="icon ion-arrow-down-b"></i></a>
+                <a href="#"><i class="icon ion-gear-b"></i></a>
+                <a href="#"><i class="icon ion-help-circled"></i></a>
+            </span>
+        </div>
+    </nav>
+    <nav class="top-subnav">
+        <a href="#" class="icon top-subnav-active-link">Browse</a>
+        <a href="#">Files</a>
+        <a href="#">Library</a>
+        <span class="top-nav-right">
+            <a href="#"><i class="icon ion-android-share-alt custom-icon-subnav"></i> Share</a>
+            <a href="#"><i class="icon ion-android-star-outline custom-icon-subnav"></i> Follow</a>
+            <a href="#"><i class="icon ion-edit custom-icon-subnav"></i> Edit </a>
+            <a href="#"><i class="icon ion-arrow-expand custom-icon-subnav"></i></a>
+        </span>
+    </nav>
+    <div class="logo-bar">
+        <a href="#"><img src="./img/logo.svg" /></a>
+        <a href="#">ODM</a>
+        <a href="#" class="search"><i class="icon ion-ios-search-strong"></i></a>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <nav class="side-nav">
+            <a href="#"><div class="side-nav-icon-container"><i class="icon ion-ios-home custom-icon-sidebar"></i></div> Home</a>
+            <a href="#"><div class="side-nav-icon-container"><i class="icon ion-document-text custom-icon-sidebar"></i></div> Documents <i class="icon ion-arrow-down-b"></i></a>
+            <a href="#"><div class="side-nav-icon-container"><i class="icon ion-android-calendar custom-icon-sidebar"></i></div> Calendar</a>
+            <a href="#"><div class="side-nav-icon-container"><i class="icon ion-ios-box custom-icon-sidebar"></i></div> Archive</a>
+            <a href="#"><div class="side-nav-icon-container"><i class="icon ion-ios-list custom-icon-sidebar"></i></div> Nomenclature</a>
+            <a href="#"><div class="side-nav-icon-container"><i class="icon ion-briefcase custom-icon-sidebar"></i></div> Organizations</a>
+          </nav>
+        </div>
+        <!-- calendar start -->
+        <div class="col-7">
+          <div class="container">
+            <div class="row">
+              <div class="calendar-header">
+                <a href="#"><i class="ion-arrow-left-c"></i></a>
+                <a href="#"><i class="ion-arrow-right-c"></i></a>
+                <a href="#">August 2015</a>
+              </div>
+              <div class="calendar-placeholder">
+                <div class="container">
+                  <div class="row days">
+                    <div class="col">Monday</div>
+                    <div class="col">Tuesday</div>
+                    <div class="col">Wednesday</div>
+                    <div class="col">Thursday</div>
+                    <div class="col">Friday</div>
+                    <div class="col">Saturday</div>
+                    <div class="col">Sunday</div>
+                  </div>
+                </div>
+                <div class="container calendar-cells">
+                  <div class="row">
+                    <div class="col" id="aug3">
+                      <div class="day">3</div>
+                      <div class="calendar-note green" title='Letter #01-01 "Whatever" from Organization 1 to EPAM. Created on: 03/05/15. Complete till: 05/05/15.'><p>Letter #01-01 "Whatever" from Organization 1 to EPAM</p></div>
+                    </div>
+                    <div class="col" id="aug4">
+                      <div class="day">4</div>
+                    </div>
+                    <div class="col" id="aug5">
+                      <div class="day">5</div>
+                    </div>
+                    <div class="col" id="aug6">
+                      <div class="day">6</div>
+                    </div>
+                    <div class="col" id="aug7">
+                      <div class="day">7</div>
+                      <div class="calendar-note yellow" title='Letter #01-01 "Whatever" from Organization 1 to EPAM. Created on: 07/05/15. Complete till: 11/05/15.'><p>Letter #01-01 "Whatever" from Organization 1 to EPAM</p></div>
+                      <div class="calendar-note yellow" style="top:35px" title='Letter #01-01 "Whatever" from Organization 1 to EPAM. Created on: 07/05/15. Complete till: 09/05/15.'><p>Letter #01-01 "Whatever" from Organization 1 to EPAM</p></div>
+                    </div>
+                    <div class="col" id="aug8">
+                      <div class="day">8</div>
+                    </div>
+                    <div class="col" id="aug9">
+                      <div class="day">9</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col" id="aug10">
+                      <div class="day">10</div>
+                      <div class="calendar-note yellow" style="border-left: 0;" title='Letter #01-01 "Whatever" from Organization 1 to EPAM. Created on: 7/05/15. Complete till: 11/05/15.'><p>Letter #01-01 "Whatever" from Organization 1 to EPAM</p></div>
+                      <div class="calendar-note red" style="top:35px" title='Letter #01-01 "Whatever" from Organization 1 to EPAM. Created on: 10/05/15. Complete till: 12/05/15.'><p>Letter #01-01 "Whatever" from Organization 1 to EPAM</p></div>
+                      <div class="calendar-note purple" style="top:50px" title='Letter #01-01 "Whatever" from Organization 1 to EPAM. Created on: 10/05/15. Complete till: 10/05/15.'><p>Letter #01-01 "Whatever" from Organization 1 to EPAM</p></div>
+                      <div class="calendar-note seagreen" style="top:65px" title='Letter #01-01 "Whatever" from Organization 1 to EPAM. Created on: 10/05/15. Complete till: 11/05/15.'><p>Letter #01-01 "Whatever" from Organization 1 to EPAM</p></div>
+                      <div class="calendar-more">
+                        <a><i class="icon ion-android-arrow-dropdown"></i> 2 more items</a>
+                      </div>
+                    </div>
+                    <div class="col" id="aug11">
+                      <div class="day">11</div>
+                    </div>
+                    <div class="col" id="aug12">
+                      <div class="day">12</div>
+                    </div>
+                    <div class="col" id="aug13">
+                      <div class="day">13</div>
+                    </div>
+                    <div class="col" id="aug14">
+                      <div class="day">14</div>
+                    </div>
+                    <div class="col" id="aug15">
+                      <div class="day">15</div>
+                    </div>
+                    <div class="col" id="aug16">
+                      <div class="day">16</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col" id="aug17">
+                      <div class="day">17</div>
+                    </div>
+                    <div class="col" id="aug18">
+                      <div class="day">18</div>
+                    </div>
+                    <div class="col" id="aug19">
+                      <div class="day">19</div>
+                    </div>
+                    <div class="col" id="aug20">
+                      <div class="day">20</div>
+                    </div>
+                    <div class="col" id="aug21">
+                      <div class="day">21</div>
+                    </div>
+                    <div class="col" id="aug22">
+                      <div class="day">22</div>
+                    </div>
+                    <div class="col" id="aug23">
+                      <div class="day">23</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col" id="aug24">
+                      <div class="day">24</div>
+                    </div>
+                    <div class="col" id="aug25">
+                      <div class="day">25</div>
+                    </div>
+                    <div class="col" id="aug26">
+                      <div class="day">26</div>
+                    </div>
+                    <div class="col" id="aug27">
+                      <div class="day">27</div>
+                    </div>
+                    <div class="col" id="aug28">
+                      <div class="day">28</div>
+                    </div>
+                    <div class="col" id="aug29">
+                      <div class="day">29</div>
+                    </div>
+                    <div class="col" id="aug30">
+                      <div class="day">30</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col" id="aug31">
+                      <div class="day">31</div>
+                    </div>
+                    <div class="col" id="sep1">
+                      <div class="day">Sept 1</div>
+                    </div>
+                    <div class="col" id="sep2">
+                      <div class="day">2</div>
+                    </div>
+                    <div class="col" id="sep3">
+                      <div class="day">3</div>
+                    </div>
+                    <div class="col" id="sep4">
+                      <div class="day">4</div>
+                    </div>
+                    <div class="col" id="sep5">
+                      <div class="day">5</div>
+                    </div>
+                    <div class="col" id="sep6">
+                      <div class="day">6</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- calendar end -->
+        <!-- on control start -->
+        <div class="col on-control">
+          <div class="col on-control-row"><i class="icon ion-eye"></i> On Control</div>
+          <div class="container-fluid">
+              <div class="row on-control-row">
+                <div class="col">01-01</div>
+                <div class="col">Letter</div>
+                <div class="col">Whatever</div>
+              </div>
+              <div class="row on-control-row">
+                <div class="col">01-01</div>
+                <div class="col">Letter</div>
+                <div class="col">Whatever</div>
+              </div>
+              <div class="row on-control-row">
+                <div class="col">01-02</div>
+                <div class="col">Request</div>
+                <div class="col">Gimme Fuel</div>
+              </div>
+              <div class="row on-control-row">
+                <div class="col">01-02</div>
+                <div class="col">Letter</div>
+                <div class="col">Whatever</div>
+              </div>
+              <div class="row on-control-row">
+                <div class="col">01-02</div>
+                <div class="col">Request</div>
+                <div class="col">Gimme Fuel</div>
+              </div>
+          </div>
+        </div>
+        <!-- on control end -->
+        <!-- footer start -->
+        <footer>
+          <a href="#">Powered by EPAM System</a>
+          <span class="top-nav-right">
+            <a href="#">About</a> <span class="pipe">|</span> 
+            <a href="#">Report a bug</a>
+          </span>
+        </footer>
+        <!-- footer end -->
+      </div>
+    </div>
+  </body>
+</html>
